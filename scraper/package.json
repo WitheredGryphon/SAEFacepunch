@@ -1,0 +1,8 @@
+{
+  "name": "find-sa-emotes",
+  "version": "1.0.0",
+  "dependencies": {
+    "cheerio": "^0.17.0",
+    "request": "^2.37.0"
+  }
+}
