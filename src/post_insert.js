@@ -70,7 +70,7 @@ $(document).ready(function() {
 		var location = $('textarea[role=textbox]')[0].selectionStart;
 		if(!location) location = 0;
 		var text = $('textarea[role=textbox]').val();
-		text = text.substring(0, location) + (fpEmotes.indexOf(emote) != -1 ? emote : '[img]' + emotes[emote] + '[/img]') + text.substring(location, text.length - 1); 
+		text = text.substring(0, location) + (fpEmotes.indexOf(emote) != -1 ? emote : '[img]' + emotes[emote] + '[/img]') + text.substring(location, text.length); 
 		$('textarea[role=textbox]').val(text);
 	}
 	function emoticonElement(container, id, emote, img)
