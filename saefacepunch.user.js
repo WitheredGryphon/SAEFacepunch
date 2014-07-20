@@ -77,7 +77,6 @@ $(document).ready(function() {
 	$('#sae_emotesdialog_sasearch').keypress(function(e) {
 		if(e.which != 13) return;
 		var text = $('#sae_emotesdialog_sasearch').val();
-		if(text.length < 3) return;
 		var results = fuse.search(text);
 		var resultEmotes = [];
 		(results.length > 10 ? results.slice(0, 9) : results).forEach(function(result) {
