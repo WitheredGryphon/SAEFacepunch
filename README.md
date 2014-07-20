@@ -10,6 +10,6 @@ To get the latest version with no fuss, you're going to want [saefacepunch.user.
 
 ## "Building"
 
-To keep the avatar list up to date, included (in the `scraper` directory) is a node.js program that will download a list of emoticons from Something Awful (ignoring the ones that Facepunch still has), and write them to emotes.js in `src`. 
+To keep the emoticon list up to date, included (in the `scraper` directory) is a node.js program that will download a list of emoticons from Something Awful (ignoring the ones that Facepunch still has), and write them to emotes.js in `src`. 
 
 You can build an up-to-date version of saefacepunch.user.js by running `make`. This will run the scraper and generate the full userscript.
